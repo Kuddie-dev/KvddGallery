@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery</title>
+
+  <link rel="stylesheet"
+  href="style.css">
+
+</head>
+
+<body>
+
+<div class="glow one"></div>
+<div class="glow two"></div>
+
+<header>
+
+  <h1>Gallery</h1>
+
+  <div class="controls">
+
+    <input
+    type="text"
+    id="search"
+    placeholder="Search media...">
+
+    <label for="upload">
+      Upload
+    </label>
+
+    <input
+    type="file"
+    id="upload"
+    multiple
+    accept="image/*,video/*">
+
+    <button id="newFolder">
+      New Folder
+    </button>
+
+  </div>
+
+</header>
+
+<main>
+
+  <div
+  class="folderBar"
+  id="folderBar"></div>
+
+  <div
+  class="gallery"
+  id="gallery"></div>
+
+  <div
+  class="empty"
+  id="empty">
+
+    No media found.
+
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
